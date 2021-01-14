@@ -9,56 +9,55 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <footer>
-
       <div className="footer-box">
         <ul className="footer-links">
-          {/* <div> */}
-            <Link to="/AudioOndertiteling">
-              <li>Audio en ondertiteling</li>
-            </Link>
-            <Link to="/Mediacenter">
-              <li>Mediacenter</li>
-            </Link>
-            <Link to="/Privacy">
-              <li>Privacy</li>
-            </Link>
-            <Link to="/Contact">
-              <li>Contact opnemen</li>
-            </Link>
-          {/* </div> */}
-          {/* <div> */}
-            <Link to="/Audiodescriptie">
-              <li>Audiodescriptie</li>
-              </Link>
-            <Link to="/Beleggersrelaties">
-              <li>Relaties met investeerders</li>
-            </Link>
-            <Link to="/WettelijkeBepalingen">
-              <li>Wettelijke bepalingen</li>
-            </Link>
-          {/* </div> */}
-          {/* <div> */}
-            <Link to="/Helpcenter">
-              <li>Helpcenter</li>
-            </Link>
-            <Link to="/Vacatures">
-              <li>Vacatures</li>
-            </Link>
-            <Link to="/Cookievoorkeuren">
-              <li>Cookievoorkeuren</li>
-            </Link>
-          {/* </div> */}
-          {/* <div> */}
-            <Link to="/Cadeaubonnen">
-              <li>Cadeaubonnen</li>
-            </Link>
-              <Link to="/Bedrijfsgegevens">
-              <li>Bedrijfsgegevens</li>
-            </Link>
-            <Link to="/Gebruiksvoorwaarden">
-              <li>Gebruiksvoorwaarden</li>
-            </Link>
-          {/* </div> */}
+          <div className="link-container">
+          <Link to="/AudioOndertiteling">
+            <li>Audio en ondertiteling</li>
+          </Link>
+          <Link to="/Mediacenter">
+            <li>Mediacenter</li>
+          </Link>
+          <Link to="/Privacy">
+            <li>Privacy</li>
+          </Link>
+          <Link to="/Contact">
+            <li>Contact opnemen</li>
+          </Link>
+          </div>
+          <div className="link-container">
+          <Link to="/Audiodescriptie">
+            <li>Audiodescriptie</li>
+          </Link>
+          <Link to="/Beleggersrelaties">
+            <li>Relaties met investeerders</li>
+          </Link>
+          <Link to="/WettelijkeBepalingen">
+            <li>Wettelijke bepalingen</li>
+          </Link>
+          </div>
+          <div className="link-container">
+          <Link to="/Helpcenter">
+            <li>Helpcenter</li>
+          </Link>
+          <Link to="/Vacatures">
+            <li>Vacatures</li>
+          </Link>
+          <Link to="/Cookievoorkeuren">
+            <li>Cookievoorkeuren</li>
+          </Link>
+          </div>
+          <div className="link-container">
+          <Link to="/Cadeaubonnen">
+            <li>Cadeaubonnen</li>
+          </Link>
+          <Link to="/Bedrijfsgegevens">
+            <li>Bedrijfsgegevens</li>
+          </Link>
+          <Link to="/Gebruiksvoorwaarden">
+            <li>Gebruiksvoorwaarden</li>
+          </Link>
+          </div>
        </ul>
        </div>
        <div className="footer-iconbox">

@@ -15,7 +15,7 @@ import Vacatures from './Pages/Vacatures';
 import WettelijkeBepalingen from './Pages/WettelijkeBepalingen';
 // import { Router } from 'react-router-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Footer from './components/Footer';
+import Footer from './components/footer';
 
 function App() {
   return (

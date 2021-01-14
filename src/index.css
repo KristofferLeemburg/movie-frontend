@@ -1,4 +1,10 @@
+@font-face {
+    font-family: 'Helvetica';
+    font-style: sans-serif;
+    src: local('Helvetica'), url(./fonts/Helvetica_Neu_Bold.ttf) format('truetype');
+}
 body{
     background-color: black;
     color: white;
+    font-family: 'Helvetica' !important;
 }
