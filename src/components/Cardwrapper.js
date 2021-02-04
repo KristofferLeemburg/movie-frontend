@@ -20,374 +20,381 @@ function Cardwrapper({ logo, title }) {
             </div>
         );
     }
-    function Container() {
+
+        // for (let i = 0; i < 40; i++) {
+        //     logo.push(logo[i] = title[i])
+        //     console.log(logo)
+        // }
+
+
+
         return (
-            <div className="parent-popup">
-                <div className="popup">
-                    <Buttons />
-                    {`${title[0]}`}
-                </div>
-            </div>
-        );
-    }
-    return (
-        <>
-            <div>
-                <ul className="cards-wrapper">
-                    <div className="parent">
-                        <img src={`${url}${logo[0]}`} alt="logo" className="laneimg" />
-                                <Container />
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[1]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[1]}`}
+            <>
+                <div>
+                    <ul className="cards-wrapper">
+                        <div className="parent">
+                            <img src={`${url}${logo[0]}`} alt="" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[0]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[2]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[2]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[1]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[1]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[3]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[3]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[2]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[2]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[4]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[4]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[3]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[3]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[5]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[5]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[4]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[4]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[6]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[6]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[5]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[5]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[7]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[7]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[6]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[6]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[8]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[8]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[7]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[7]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[9]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <Buttons />
-                            {`${title[9]}`}
-                        </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[10]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <Buttons />
-                            {`${title[10]}`}
-                        </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[11]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[11]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[8]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[8]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[12]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
+                        <div className="parent">
+                            <img src={`${url}${logo[9]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
                             <div className="popup">
                                 <Buttons />
-                                {`${title[12]}`}
+                                {`${title[9]}`}
+                            </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[13]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
+                        <div className="parent">
+                            <img src={`${url}${logo[10]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
                             <div className="popup">
                                 <Buttons />
-                                {`${title[13]}`}
+                                {`${title[9]}`}
+                            </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[14]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[14]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[11]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[11]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[15]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[15]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[12]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[12]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[16]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[16]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[13]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[13]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[17]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[17]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[14]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[14]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[18]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[18]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[15]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[15]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[19]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[19]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[16]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[16]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[20]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[20]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[17]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[17]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[21]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[21]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[18]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[18]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[22]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[22]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[19]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[19]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[23]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[23]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[20]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[20]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[24]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[24]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[21]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[21]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[25]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[25]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[22]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[22]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[26]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[26]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[23]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[23]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[27]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[27]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[24]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[24]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[28]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[28]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[25]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[25]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[29]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[29]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[26]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[26]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[30]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[30]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[27]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[27]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[31]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[31]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[28]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[28]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[32]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[32]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[29]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[29]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[33]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[33]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[30]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[30]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[34]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[34]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[31]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[31]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[35]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[35]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[32]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[32]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[36]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[36]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[33]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[33]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[37]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[37]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[34]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[34]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[38]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[38]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[35]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[35]}`}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="parent">
-                        <img src={`${url}${logo[39]}`} alt="logo" className="laneimg" />
-                        <div className="parent-popup">
-                            <div className="popup">
-                                <Buttons />
-                                {`${title[39]}`}
+                        <div className="parent">
+                            <img src={`${url}${logo[36]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[36]}`}
+                                </div>
                             </div>
-                        </div> *
+                        </div>
+                        <div className="parent">
+                            <img src={`${url}${logo[37]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[37]}`}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="parent">
+                            <img src={`${url}${logo[38]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[38]}`}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="parent">
+                            <img src={`${url}${logo[39]}`} alt="logo" className="laneimg" />
+                            <div className="parent-popup">
+                                <div className="popup">
+                                    <Buttons />
+                                    {`${title[39]}`}
+                                </div>
+                            </div> *
           </div>
-                </ul>
-            </div>
-        </>
-    );
-};
-export default Cardwrapper;
+                    </ul>
+                </div>
+            </>
+        );
+    };
+    export default Cardwrapper;
