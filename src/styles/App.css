@@ -44,8 +44,6 @@ a:active {
 }
 
 .movie-logo-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 30px;
 }

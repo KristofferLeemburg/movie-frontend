@@ -4,63 +4,127 @@ $secondaryClr : #d1d1d1;
 .footer-iconbox {
     display: flex;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 25px;
     color: $primaryClr;
     margin:32px;
 } 
 .footer-links {
-    display: flex;
-    justify-content: space-between;
-    margin:25px;
-    text-decoration: none;
-    .link-container{
-        display: flex;
-        flex-direction: column;
-        margin: 10px;
-        li {
-            box-sizing: border-box;
-            margin-bottom: 16px;
-            opacity: 0.7;
-            color: $primaryClr;
-            font-size: 10px;
-            list-style: none;
-        }
-        &:hover {
-            opacity: 1;
-            color: $secondaryClr;
-        }
-    } 
-} 
+    width: 200px;
+    height: 200px; 
+    margin-left: 35px;
+    display: grid;
+    grid-template-columns: repeat (4, 100px);
+    grid-template-rows: repeat(2, 100px);
+    grid-template-areas: 
+     "een twee"
+     "drie vier";
+}
+.link-container1 {
+    // margin-left: 20px;
+    width: 130px;
+    height: 70px;
+    grid-area: een;    
+}
+.link-container2 {
+    width: 130px;
+    height: 70px;
+    // margin-left: 10px;
+    grid-area: twee;
+}
+.link-container3 {
+    // margin-left: 10px;
+    width: 130px;
+    height: 70px;
+    grid-area: drie;
+}
+.link-container4 {
+    width: 130px;
+    height: 70px;
+    // margin-left: 10px;
+    grid-area: vier;
+}
+
+li {
+    opacity: 0.7;
+    color: $primaryClr;
+    font-size: 10px;
+    list-style: none;
+}
+// .footer-links {
+//     display: grid;
+//     justify-content: space-between;
+//     margin:25px;
+//     text-decoration: none;
+//     .link-container{
+//         display: flex;
+//         flex-direction: column;
+//         margin: 10px;
+//         li {
+//             box-sizing: border-box;
+//             margin-bottom: 16px;
+//             opacity: 0.7;
+//             color: $primaryClr;
+//             font-size: 10px;
+//             list-style: none;
+//         }
+//         &:hover {
+//             opacity: 1;
+//             color: $secondaryClr;
+//         }
+//     } 
+// } 
 @media screen and (min-width: 539px) {
     .footer-iconbox {
         font-size: 20px; 
     } 
-    .footer-links .link-container li {
-        font-size: 10px;
-    } 
+    // .footer-links .link-container li {
+    //     font-size: 10px;
+    // }  
+    .footer-links {
+        font-size: 20px;
+        margin: 25px;
+    }
 }
+
 @media screen and (min-width: 768px) { 
     .footer-iconbox {
         font-size: 30px;
     } 
-    .footer-links .link-container li {
-        font-size: 10px;
-    } 
+    // .footer-links .link-container li {
+    //     font-size: 10px;
+    // } 
+    .footer-links {
+        font-size: 40px;
+        grid-template-areas: 
+        "een twee drie vier";
+    }
 }
 @media screen and (min-width: 992px) {
     .footer-iconbox {
         font-size: 40px;
     } 
-    .footer-links .link-container li {
-        font-size: 14px;
-    } 
+    .footer-links {
+        margin-left: 30px;
+        grid-gap: 90px;
+        grid-template-areas: 
+        'een twee drie vier';
+    }
+    li {
+        font-size: 13px;
+    }
 }
 @media screen and (min-width: 1200px) {
     .footer-iconbox {
-        margin:30px; 
+        margin-left: 40px; 
     }
-    .footer-links .link-container li {
-        font-size: 20px;
-    }  
+    .footer-links {
+        margin-left: 30px;
+        grid-gap: 90px;
+        grid-template-areas: 
+        'een twee drie vier';
+    }
+    li {
+        font-size: 13px;
+    }
 }
 

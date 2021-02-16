@@ -24,7 +24,7 @@ function Footer() {
     </a>
   </div>
         <div className="footer-links">
-          <div className="link-container">
+          <div className="link-container1">
           <Link to="/AudioOndertiteling">
             <li>Audio en ondertiteling</li>
           </Link>
@@ -38,7 +38,7 @@ function Footer() {
             <li>Contact opnemen</li>
           </Link>
           </div>
-          <div className="link-container">
+          <div className="link-container2">
           <Link to="/Audiodescriptie">
             <li>Audiodescriptie</li>
           </Link>
@@ -49,18 +49,18 @@ function Footer() {
             <li>Wettelijke bepalingen</li>
           </Link>
           </div>
-          <div className="link-container">
+          <div className="link-container3">
           <Link to="/Helpcenter">
             <li>Helpcenter</li>
           </Link>
           <Link to="/Vacatures">
             <li>Vacatures</li>
-          </Link>
+          </Link> 	
           <Link to="/Cookievoorkeuren">
             <li>Cookievoorkeuren</li>
           </Link>
           </div>
-          <div className="link-container">
+          <div className="link-container4">
           <Link to="/Cadeaubonnen">
             <li>Cadeaubonnen</li>
           </Link>

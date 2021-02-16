@@ -28,7 +28,7 @@
   top: 0px;
   height: 800px;
   width: 250px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   left: -250px;
 }
 
@@ -37,7 +37,7 @@
   top: 0px;
   height: 800px;
   width: 250px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   right: -250px;
 }
 
@@ -59,8 +59,6 @@
 }
 
 .popup .movie-logo-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 30px;
 }
@@ -192,12 +190,8 @@
 .popup .movieExcerpt {
   width: 600px;
   height: auto;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin-right: 100px;
 }
 
@@ -285,8 +279,6 @@
     top: 600px;
   }
   .infoMovie {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 200px;
   }
